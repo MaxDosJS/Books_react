@@ -1,0 +1,111 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #3c3b76;
+  position: relative;
+  right: 400px;
+  bottom: 230px;
+}
+.home_img{
+  width: 900px;
+  height: 500px;
+  
+  padding-left: 380px;
+}
+.link {
+ 
+  width: 180px;
+  position: relative;
+  bottom: 655px;
+  left: 1200px;
+  height: 50px;
+  background-color: #3c3b76;
+  
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+
+.search_container {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  bottom: 300px;
+  margin-left: 100px;
+  display: flex;
+  
+}
+
+.search_btn {
+  font-size: 18px;
+  width: 90px;
+  background-color: #806139;
+  height: 46px;
+  border: none;
+  border-radius: 0px 15px 15px 0;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 15px 0 0 15px;
+  border: none;
+  color: white;
+  background-color: #806139;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.book_results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  bottom: 450px;
+}
+
+.book_title {
+  color: white;
+}
+
+.bookContainer {
+  width: 500px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #806139;
+  border-radius: 15px;
+}
+
+.book_image {
+  width: 250px;
+  height: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+.favoriteBookButton {
+  width: 250px;
+  height: 40px;
+  border: none;
+  background-color: #4b4944;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
